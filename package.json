@@ -1,0 +1,16 @@
+{
+	"name": "twinejs-cors-proxy",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"dev": "wrangler pages dev public"
+	},
+	"devDependencies": {
+		"@cloudflare/workers-types": "^4.20230518.0",
+		"wrangler": "^3.0.0"
+	},
+	"dependencies": {
+		"domutils": "^3.1.0",
+		"htmlparser2": "^9.0.0"
+	}
+}
